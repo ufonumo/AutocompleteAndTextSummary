@@ -23,11 +23,8 @@ const SummaryPage = () => {
 
     return (
         <Container className="container" size="lg">
-            <Flex align="center" justify="space-between">
-                <Title mt={30} mb={30}>
-                    AI-Powered Text Generation Summary
-                </Title>
-
+            <Flex align="center" justify="space-between" mt={30} mb={30}>
+                <Title>AI-Powered Text Generation Summary</Title>
                 <Button
                     variant="light"
                     color="#1D72FE"
@@ -36,6 +33,10 @@ const SummaryPage = () => {
                     Go to Home Page
                 </Button>
             </Flex>
+            <Text mt={30} mb={30}>
+                Use this page to summarize any text you provide. Just paste your
+                text in the box below and click "Generate Summary".
+            </Text>
             <Textarea
                 label="Paste your text here to summarize"
                 placeholder="Enter text to summarize..."

@@ -64,11 +64,8 @@ const Home = () => {
 
     return (
         <Container className="container" size="lg">
-            <Flex align="center" justify="space-between">
-                <Title mt={30} mb={30}>
-                    AI-Powered Autocomplete and Text Generation
-                </Title>
-
+            <Flex align="center" justify="space-between" mt={30} mb={30}>
+                <Title>AI-Powered Autocomplete and Text Generation</Title>
                 <Button
                     variant="light"
                     color="#1D72FE"
